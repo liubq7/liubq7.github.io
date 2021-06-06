@@ -2586,7 +2586,7 @@ ul.icons {
 
 ul.icons li {
   display: inline-block;
-  padding: 0 1em 0 0;
+  padding: 0 0.7vw 0 0;
   margin-bottom: 0;
 }
 
@@ -3030,44 +3030,6 @@ body.is-touch .wrapper.style3 {
   right: 0;
 }
 
-#header.alt {
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
-  height: 3.25em;
-  line-height: 3.25em;
-  /* position: absolute; */
-}
-
-#header.alt h1 {
-  color: #484848;
-  left: 2.5em;
-  top: 2em;
-}
-
-#header.alt h1 a {
-  color: #484848;
-}
-
-#header.alt nav {
-  right: 2em;
-  top: 2em;
-}
-
-#header.alt nav a {
-  color: #484848;
-}
-
-#header.alt nav a:active,
-#header.alt nav a:hover {
-  color: #f32853;
-}
-
-#header.alt .button {
-  border-color: rgba(255, 255, 255, 0.5);
-  color: #ffffff !important;
-}
-
 @media screen and (max-width: 980px) {
   #header {
     display: none;
@@ -3326,6 +3288,7 @@ body.is-touch #banner {
   color: #aaa;
   text-align: center;
   font-size: 1vw;
+  padding-bottom: 0;
 }
 
 #footer a {
@@ -3376,7 +3339,7 @@ body.is-touch #banner {
 
 @media screen and (max-width: 980px) {
   #footer {
-    padding: 6em 0 4em 0;
+    padding: 3em 0 2em 0;
   }
 }
 
